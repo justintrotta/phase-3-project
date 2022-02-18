@@ -1,0 +1,53 @@
+div.Collapsible {
+    background-color: rgb(225, 243, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 1%;
+}
+
+div.authorQuote {
+    background-color: rgb(0, 83, 83) !important;
+}
+
+div.navbar {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div.navbar a {
+    font-family: "Lucida Console";
+    background-color: #32ceac;
+    color: rgb(7, 1, 100);
+    display: inline-flex;
+    align-items: center;
+    padding-block: 10px;
+    padding-inline: 50px;
+}
+
+tr:nth-child(odd),
+tr.odd.odd {
+  background-color: rgb(146, 211, 255);
+}
+tr:nth-child(even),
+tr.even.even {
+  background-color: #bceaff;
+}
+
+tr {
+    padding: 8px;
+}
+
+span[role="button"] {
+    background-color: #d8d8d8;
+}
+
+div.completionText {
+    display: flex;
+    align-items: center;
+    background-color: #84d3f8;
+    border-radius: 4px;
+    border-style: groove;
+}
